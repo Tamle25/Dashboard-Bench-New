@@ -1,0 +1,35 @@
+# Repo bench mẫu. Một repo bench thật chỉ cần đúng cấu trúc này:
+#   bench.yaml   (file này)
+#   data/*.jsonl (mỗi dòng một mẫu)
+#   rubrics/*.md (tuỳ chọn, cho llm_judge)
+#   scorers/*.py (tuỳ chọn, cho scoring.type = custom)
+version: 1
+benches:
+  - id: vnqa-mini
+    name: VN-QA mini
+    task: Hỏi đáp kiến thức tiếng Việt
+    data: data/vnqa.jsonl
+    scoring:
+      type: exact_match
+
+  - id: sum-mini
+    name: Tóm tắt mini
+    task: Tóm tắt đoạn văn ngắn
+    data: data/sum.jsonl
+    scoring:
+      type: llm_judge
+      rubric: rubrics/sum_v1.md
+
+  - id: code-mini
+    name: Code-Exec mini
+    task: Sinh hàm Python
+    data: data/code.jsonl
+    scoring:
+      type: unit_test
+
+  # Ví dụ bộ bench sai schema: sẽ bị bỏ qua và hiện cảnh báo ở màn Nguồn bench.
+  - id: broken-example
+    name: Ví dụ lỗi
+    data: data/vnqa.jsonl
+    scoring:
+      type: bleu

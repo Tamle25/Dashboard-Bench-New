@@ -1,0 +1,10 @@
+{"id": "1", "category": "Địa lý", "input": "Thủ đô của Việt Nam là thành phố nào? Chỉ trả lời tên thành phố.", "reference": "Hà Nội"}
+{"id": "2", "category": "Địa lý", "input": "Sông nào dài nhất chảy qua lãnh thổ Việt Nam? Chỉ trả lời tên sông.", "reference": "Sông Mê Kông"}
+{"id": "3", "category": "Địa lý", "input": "Đỉnh núi cao nhất Việt Nam tên là gì? Chỉ trả lời tên.", "reference": "Fansipan"}
+{"id": "4", "category": "Lịch sử", "input": "Chiến thắng Điện Biên Phủ diễn ra vào năm nào? Chỉ trả lời số năm.", "reference": "1954"}
+{"id": "5", "category": "Lịch sử", "input": "Vị vua đầu tiên của nhà Nguyễn là ai? Chỉ trả lời niên hiệu.", "reference": "Gia Long"}
+{"id": "6", "category": "Ngôn ngữ", "input": "Chữ cái đầu tiên của bảng chữ cái tiếng Việt là gì? Chỉ trả lời một chữ cái.", "reference": "A"}
+{"id": "7", "category": "Tính toán", "input": "2,5 giờ bằng bao nhiêu phút? Chỉ trả lời con số.", "reference": "150"}
+{"id": "8", "category": "Tính toán", "input": "Một tuần có bao nhiêu ngày? Chỉ trả lời con số.", "reference": "7"}
+{"id": "9", "category": "Địa lý", "input": "Việt Nam nằm trên bán đảo nào? Chỉ trả lời tên bán đảo.", "reference": "Đông Dương"}
+{"id": "10", "category": "Ngôn ngữ", "input": "Từ trái nghĩa với 'nóng' là gì? Chỉ trả lời một từ.", "reference": "lạnh"}
